@@ -1,12 +1,12 @@
-#ifdef LIBWRITEENABLEFORTHREADSATSTACK_EXPORTS
-#define LIBWRITEENABLEFORTHREADSATSTACK_API __declspec(dllexport)
+#ifdef LIBWRITEENABLEFORTHREADSATCLIENTOUTPUTRECIEVE_EXPORTS
+#define LIBWRITEENABLEFORTHREADSATCLIENTOUTPUTRECIEVE_API __declspec(dllexport)
 #else
-#define LIBWRITEENABLEFORTHREADSATSTACK_API __declspec(dllimport)
+#define LIBWRITEENABLEFORTHREADSATCLIENTOUTPUTRECIEVE_API __declspec(dllimport)
 #endif
 
-namespace OpenAvrilLIB
+namespace OpenAvrilCLIDWriteEnableForThreadsAtCLIENTOUTPUTRECIEVE
 {
-	class LIBWRITEENABLEFORTHREADSATSTACK_API CLIDWriteEnableForThreadsAtSTACK 
+	class LIBWRITEENABLEFORTHREADSATCLIENTOUTPUTRECIEVE_API CLIDWriteEnableForThreadsAtCLIENTOUTPUTRECIEVE 
 	{
 // classes.
 
@@ -16,17 +16,17 @@ namespace OpenAvrilLIB
 
 	public:
 // constructor.
-		CLIDWriteEnableForThreadsAtSTACK();
+		CLIDWriteEnableForThreadsAtCLIENTOUTPUTRECIEVE();
 
 // destructor.
 
 // public.
 	// dynamic.
 		static void* create_Program();
-		static void write_End(class WriteEnableForThreadsAt_STACK_Framework* obj, uint8_t coreId);
-		static void write_Start(class WriteEnableForThreadsAt_STACK_Framework* obj, uint8_t coreId);
+		static void write_End(class WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE_Framework* obj, uint8_t coreId);
+		static void write_Start(class WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE_Framework* obj, uint8_t coreId);
 		// get.
-		static class WriteEnableForThreadsAt_STACK_Framework* get_ptr_Framework();
+		static class WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE_Framework* get_ptr_Framework();
 		// set.
 	// static.
 		// get.
@@ -40,6 +40,6 @@ namespace OpenAvrilLIB
 	// static.
 		// get.
 		// set.
-		static void set_ptr_Framework(class WriteEnableForThreadsAt_STACK_Framework* writeEnable);
+		static void set_ptr_Framework(class WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE_Framework* writeEnable);
 	};
 }

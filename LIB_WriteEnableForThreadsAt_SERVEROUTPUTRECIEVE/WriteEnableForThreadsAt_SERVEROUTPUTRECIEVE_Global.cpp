@@ -15,7 +15,7 @@
     uint8_t* _ptr_number_Of_Implemented_Threads = NULL;
 
 // constructor.
-    OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::WriteEnableForThreadsAt_STACK_Global()
+    OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global()
     {
         _ptr_number_Of_Implemented_Threads = &_number_Of_Implemented_Threads;
         bool* newDEFAULT_Flagbit = new bool(false);
@@ -29,7 +29,7 @@
     }
 
 // destructor.
-    OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::~WriteEnableForThreadsAt_STACK_Global()
+    OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::~WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global()
     {
         delete _ptr_2bit_flag_write_IDLE;
         delete _ptr_2bit_flag_write_WAIT;
@@ -38,42 +38,42 @@
     }
 // public.
     // dynamic.
-    void OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::initialise_Item_Of_2bit_flag_write_IDLE(OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Framework* obj, uint8_t slot, bool newINITIALISED_FlagBit)
+    void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::initialise_Item_Of_2bit_flag_write_IDLE(OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework* obj, uint8_t slot, bool newINITIALISED_FlagBit)
     {
         auto temp = obj->get_ptr_WriteEnable()->get_ptr_Global()->get_ptr_2bit_flag_write_IDLE()->begin();
         std::advance(temp, slot);
         *temp = newINITIALISED_FlagBit;
     }
-    void OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::initialise_Item_Of_2bit_flag_write_WAIT(OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Framework* obj, uint8_t slot, bool newINITIALISED_FlagBit)
+    void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::initialise_Item_Of_2bit_flag_write_WAIT(OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework* obj, uint8_t slot, bool newINITIALISED_FlagBit)
     {
         auto temp = obj->get_ptr_WriteEnable()->get_ptr_Global()->get_ptr_2bit_flag_write_WAIT()->begin();
         std::advance(temp, slot);
         *temp = newINITIALISED_FlagBit;
     }
-    void OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::initialise_Item_Of_2bit_flag_write_WRITE(OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Framework* obj, uint8_t slot, bool newINITIALISED_FlagBit)
+    void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::initialise_Item_Of_2bit_flag_write_WRITE(OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework* obj, uint8_t slot, bool newINITIALISED_FlagBit)
     {
         auto temp = obj->get_ptr_WriteEnable()->get_ptr_Global()->get_ptr_2bit_flag_write_WRITE()->begin();
         std::advance(temp, slot);
         *temp = newINITIALISED_FlagBit;
     }
-    void OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::initialise_number_Of_Implemented_Threads(uint8_t* newValue)
+    void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::initialise_number_Of_Implemented_Threads(uint8_t* newValue)
     {
         _number_Of_Implemented_Threads = *newValue;
     }
         // get.
-    std::list<bool>* OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::get_ptr_2bit_flag_write_IDLE()
+    std::list<bool>* OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::get_ptr_2bit_flag_write_IDLE()
     {
         return _ptr_2bit_flag_write_IDLE;
     }
-    std::list<bool>* OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::get_ptr_2bit_flag_write_WAIT()
+    std::list<bool>* OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::get_ptr_2bit_flag_write_WAIT()
     {
         return _ptr_2bit_flag_write_WAIT;
     }
-    std::list<bool>* OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::get_ptr_2bit_flag_write_WRITE()
+    std::list<bool>* OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::get_ptr_2bit_flag_write_WRITE()
     {
         return _ptr_2bit_flag_write_WRITE;
     }
-    uint8_t OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::get_number_Of_Implemented_Threads()
+    uint8_t OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::get_number_Of_Implemented_Threads()
     {
         return _number_Of_Implemented_Threads;
     }
@@ -87,94 +87,94 @@
         // get.
         // set.
     // static.
-    void OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::create_2bit_flag_write_IDLE(bool newDEAFULT_FlagBit)
+    void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::create_2bit_flag_write_IDLE(bool newDEAFULT_FlagBit)
     {
         std::list<bool> _2bit_flag_write_IDLE = { newDEAFULT_FlagBit, newDEAFULT_FlagBit };
         create_ptr_2bit_flag_write_IDLE();
         while (Get_ptr_2bit_flag_write_IDLE() == NULL) {}
     }
-    void OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::create_2bit_flag_write_WAIT(bool newDEAFULT_FlagBit)
+    void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::create_2bit_flag_write_WAIT(bool newDEAFULT_FlagBit)
     {
         std::list<bool> _2bit_flag_write_WAIT = { newDEAFULT_FlagBit, newDEAFULT_FlagBit };
         create_ptr_2bit_flag_write_WAIT();
         while (Get_ptr_2bit_flag_write_WAIT() == NULL) {}
     }
-    void OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::create_2bit_flag_write_WRITE(bool newDEAFULT_FlagBit)
+    void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::create_2bit_flag_write_WRITE(bool newDEAFULT_FlagBit)
     {
         std::list<bool> _2bit_flag_write_WRITE = { newDEAFULT_FlagBit, newDEAFULT_FlagBit };
         create_ptr_2bit_flag_write_WRITE();
         while (Get_ptr_2bit_flag_write_WRITE() == NULL) {}
     }
-    void OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::create_number_Of_Implemented_Threads(uint8_t* newDEFAULT_Value)
+    void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::create_number_Of_Implemented_Threads(uint8_t* newDEFAULT_Value)
     {
         set_number_Of_Implemented_Threads(*newDEFAULT_Value);
         while (get_ptr_number_Of_Implemented_Threads() == NULL) {}
     }
-    void OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::create_ptr_2bit_flag_write_IDLE()
+    void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::create_ptr_2bit_flag_write_IDLE()
     {
         set_ptr_2bit_flag_write_IDLE(&_2bit_flag_write_IDLE);
         while (Get_ptr_2bit_flag_write_IDLE() == NULL) {}
     }
-    void OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::create_ptr_2bit_flag_write_WAIT()
+    void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::create_ptr_2bit_flag_write_WAIT()
     {
         set_ptr_2bit_flag_write_WAIT(&_2bit_flag_write_WAIT);
         while (Get_ptr_2bit_flag_write_WAIT() == NULL) {}
     }
-    void OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::create_ptr_2bit_flag_write_WRITE()
+    void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::create_ptr_2bit_flag_write_WRITE()
     {
         set_ptr_2bit_flag_write_WRITE(&_2bit_flag_write_WRITE);
         while (Get_ptr_2bit_flag_write_WRITE() == NULL) {}
     }
 
         // get.
-    std::list<bool>* OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::Get_ptr_2bit_flag_write_IDLE()
+    std::list<bool>* OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::Get_ptr_2bit_flag_write_IDLE()
     {
         return _ptr_2bit_flag_write_IDLE;
     }
-    std::list<bool>* OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::Get_ptr_2bit_flag_write_WAIT()
+    std::list<bool>* OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::Get_ptr_2bit_flag_write_WAIT()
     {
         return _ptr_2bit_flag_write_WAIT;
     }
-    std::list<bool>* OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::Get_ptr_2bit_flag_write_WRITE()
+    std::list<bool>* OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::Get_ptr_2bit_flag_write_WRITE()
     {
         return _ptr_2bit_flag_write_WRITE;
     }
-    uint8_t* OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::get_ptr_number_Of_Implemented_Threads()
+    uint8_t* OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::get_ptr_number_Of_Implemented_Threads()
     {
         return _ptr_number_Of_Implemented_Threads;
     }
         // set.
-    void OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::set_Item_Of_2bit_flag_write_IDLE(uint8_t slot, bool newValue)
+    void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::set_Item_Of_2bit_flag_write_IDLE(uint8_t slot, bool newValue)
     {
         auto temp = Get_ptr_2bit_flag_write_IDLE()->begin();
         std::advance(temp, slot);
         *temp = newValue;
     }
-    void OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::set_Item_Of_2bit_flag_write_WAIT(uint8_t slot, bool newValue)
+    void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::set_Item_Of_2bit_flag_write_WAIT(uint8_t slot, bool newValue)
     {
         auto temp = Get_ptr_2bit_flag_write_WAIT()->begin();
         std::advance(temp, slot);
         *temp = newValue;
     }
-    void OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::set_Item_Of_2bit_flag_write_WRITE(uint8_t slot, bool newValue)
+    void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::set_Item_Of_2bit_flag_write_WRITE(uint8_t slot, bool newValue)
     {
         auto temp = Get_ptr_2bit_flag_write_WRITE()->begin();
         std::advance(temp, slot);
         *temp = newValue;
     }
-    void OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::set_ptr_2bit_flag_write_IDLE(std::list<bool>* newPtr)
+    void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::set_ptr_2bit_flag_write_IDLE(std::list<bool>* newPtr)
     {
         _ptr_2bit_flag_write_IDLE = newPtr;
     }
-    void OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::set_ptr_2bit_flag_write_WAIT(std::list<bool>* newPtr)
+    void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::set_ptr_2bit_flag_write_WAIT(std::list<bool>* newPtr)
     {
         _ptr_2bit_flag_write_WAIT = newPtr;
     }
-    void OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::set_ptr_2bit_flag_write_WRITE(std::list<bool>* newPtr)
+    void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::set_ptr_2bit_flag_write_WRITE(std::list<bool>* newPtr)
     {
         _ptr_2bit_flag_write_WRITE = newPtr;
     }
-    void OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Global::set_number_Of_Implemented_Threads(uint8_t newValue)
+    void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global::set_number_Of_Implemented_Threads(uint8_t newValue)
     {
         _number_Of_Implemented_Threads = newValue;
     }

@@ -2,27 +2,27 @@
 
 
 // classes.
-	class OpenAvrilLIB::WriteEnableForThreadsAt_STACK* _ptr_WriteEnable = NULL;
+	class OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE* _ptr_WriteEnable = NULL;
 
 // registers.
 
 // pointers.
 
 // constructor.
-	OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Framework::WriteEnableForThreadsAt_STACK_Framework()
+	OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework()
 	{
 		create_ptr_WriteEnable();
 	}
 
 // destructor.
-	OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Framework::~WriteEnableForThreadsAt_STACK_Framework()
+	OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework::~WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework()
 	{
 		delete _ptr_WriteEnable;
 	}
 
 // public.
 	// dynamic.
-	void OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Framework::initialise(OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Framework* obj)
+	void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework::initialise(OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework* obj)
 	{
 		std::list<bool>* ptr_newINITIALISED_boolList = new std::list<bool>(true);
 		while (ptr_newINITIALISED_boolList == NULL) {}
@@ -68,7 +68,7 @@
 		delete newINITIALISED_uint32_t;
 	}
 		// get.
-	OpenAvrilLIB::WriteEnableForThreadsAt_STACK* OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Framework::get_ptr_WriteEnable()
+	OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE* OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework::get_ptr_WriteEnable()
 	{
 		return _ptr_WriteEnable;
 	}
@@ -82,18 +82,18 @@
 		// get.
 		// set.
 	// static.
-	void OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Framework::create_ptr_WriteEnable()
+	void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework::create_ptr_WriteEnable()
 	{
-		set_ptr_WriteEnable(new class OpenAvrilLIB::WriteEnableForThreadsAt_STACK());
+		set_ptr_WriteEnable(new class OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE());
 		while (Get_ptr_WriteEnable() == NULL) {}
 	}
 		// get.
-	OpenAvrilLIB::WriteEnableForThreadsAt_STACK* OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Framework::Get_ptr_WriteEnable()
+	OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE* OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework::Get_ptr_WriteEnable()
 	{
 		return _ptr_WriteEnable;
 	}
 		// set.
-	void OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Framework::set_ptr_WriteEnable(OpenAvrilLIB::WriteEnableForThreadsAt_STACK* writeEnable)
+	void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework::set_ptr_WriteEnable(OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE* writeEnable)
 	{
 		_ptr_WriteEnable = writeEnable;
 	}

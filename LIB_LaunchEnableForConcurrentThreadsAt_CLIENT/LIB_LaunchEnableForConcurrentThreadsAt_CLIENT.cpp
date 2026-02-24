@@ -1,17 +1,17 @@
-// LIB_LaunchEnableForConcurrentThreadsAt_END.cpp : Defines the exported functions for the DLL.
+// LIB_LaunchEnableForConcurrentThreadsAt_CLIENT.cpp : Defines the exported functions for the DLL.
 #include "pch.h"
 #include "framework.h"
-#include "LIB_LaunchEnableForConcurrentThreadsAt_END.h"
+#include "LIB_LaunchEnableForConcurrentThreadsAt_CLIENT.h"
 
 // classes.
-    class OpenAvrilLIB::LaunchEnableForConcurrentThreadsAt_END_Framework* ptr_Framework_LaunchEnableForConcurrentThreadsAt_END = NULL;
+    class OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework* ptr_Framework_LaunchEnableForConcurrentThreadsAt_CLIENT = NULL;
 
 // registers.
 
 // pointer.
 
 // constructor.
-    OpenAvrilLIB::CLIBLaunchEnableForConcurrentThreadsAtEND::CLIBLaunchEnableForConcurrentThreadsAtEND()
+    OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcurrentThreadsAtCLIENT()
     {
     }
 
@@ -22,39 +22,39 @@
         // get.
         // set.
     // static.
-    void* OpenAvrilLIB::CLIBLaunchEnableForConcurrentThreadsAtEND::create_Program()
+    void* OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcurrentThreadsAtCLIENT::create_Program()
     {
-        set_ptr_Framework(new class OpenAvrilLIB::LaunchEnableForConcurrentThreadsAt_END_Framework());
+        set_ptr_Framework(new class OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework());
         while (get_ptr_Framework() == NULL) {}
         get_ptr_Framework()->initialise(get_ptr_Framework());
         return (void*)get_ptr_Framework();
     }
-    void OpenAvrilLIB::CLIBLaunchEnableForConcurrentThreadsAtEND::request_Wait_launch(OpenAvrilLIB::LaunchEnableForConcurrentThreadsAt_END_Framework* obj, uint8_t concurrent_CoreId)
+    void OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcurrentThreadsAtCLIENT::request_Wait_launch(OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework* obj, uint8_t concurrent_CoreId)
     {
         obj->get_ptr_LaunchConcurrency()->thread_Start(obj, concurrent_CoreId);
     }
-    void OpenAvrilLIB::CLIBLaunchEnableForConcurrentThreadsAtEND::thread_End(OpenAvrilLIB::LaunchEnableForConcurrentThreadsAt_END_Framework* obj, uint8_t concurrent_CoreId)
+    void OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcurrentThreadsAtCLIENT::thread_End(OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework* obj, uint8_t concurrent_CoreId)
     {
         obj->get_ptr_LaunchConcurrency()->thread_End(obj, concurrent_CoreId);
     }
         // get.
-    uint8_t OpenAvrilLIB::CLIBLaunchEnableForConcurrentThreadsAtEND::get_coreId_To_launch(OpenAvrilLIB::LaunchEnableForConcurrentThreadsAt_END_Framework* obj)
+    uint8_t OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcurrentThreadsAtCLIENT::get_coreId_To_launch(OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework* obj)
     {
         return obj->get_ptr_LaunchConcurrency()->get_ptr_LaunchConcurrency_Control()->get_Item_On_list_for_Que_Of_CoreTolaunch(0);
     }
-    bool OpenAvrilLIB::CLIBLaunchEnableForConcurrentThreadsAtEND::get_Flag_Active(OpenAvrilLIB::LaunchEnableForConcurrentThreadsAt_END_Framework* obj)
+    bool OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcurrentThreadsAtCLIENT::get_Flag_Active(OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework* obj)
     {
         return obj->get_ptr_LaunchConcurrency()->get_ptr_Global()->get_flag_core_ACTIVE();
     }
-    bool OpenAvrilLIB::CLIBLaunchEnableForConcurrentThreadsAtEND::get_Flag_ConcurrentCoreState(OpenAvrilLIB::LaunchEnableForConcurrentThreadsAt_END_Framework* obj, uint8_t concurrent_CoreId)
+    bool OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcurrentThreadsAtCLIENT::get_Flag_ConcurrentCoreState(OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework* obj, uint8_t concurrent_CoreId)
     {
         return obj->get_ptr_LaunchConcurrency()->get_ptr_LaunchConcurrency_Control()->get_Item_On_list_Of_STATE_For_ConcurrentCore(concurrent_CoreId);
     }
-    bool OpenAvrilLIB::CLIBLaunchEnableForConcurrentThreadsAtEND::get_Flag_Idle(OpenAvrilLIB::LaunchEnableForConcurrentThreadsAt_END_Framework* obj)
+    bool OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcurrentThreadsAtCLIENT::get_Flag_Idle(OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework* obj)
     {
         return obj->get_ptr_LaunchConcurrency()->get_ptr_Global()->get_flag_core_IDLE();
     }
-    bool OpenAvrilLIB::CLIBLaunchEnableForConcurrentThreadsAtEND::get_State_launchBit(OpenAvrilLIB::LaunchEnableForConcurrentThreadsAt_END_Framework* obj)
+    bool OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcurrentThreadsAtCLIENT::get_State_launchBit(OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework* obj)
     {
         return obj->get_ptr_LaunchConcurrency()->get_ptr_LaunchConcurrency_Control()->get_Item_On_list_Of_STATE_For_ConcurrentCore(0);
     }
@@ -67,15 +67,15 @@
     // static.
         // get.
         // set.
-    void OpenAvrilLIB::CLIBLaunchEnableForConcurrentThreadsAtEND::set_state_ConcurrentCore(OpenAvrilLIB::LaunchEnableForConcurrentThreadsAt_END_Framework* obj, uint8_t concurrent_CoreId, bool value)
+    void OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcurrentThreadsAtCLIENT::set_state_ConcurrentCore(OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework* obj, uint8_t concurrent_CoreId, bool value)
     {
         obj->get_ptr_LaunchConcurrency()->get_ptr_LaunchConcurrency_Control()->set_Item_On_list_Of_STATE_For_ConcurrentCore(concurrent_CoreId, value);
     }
-    OpenAvrilLIB::LaunchEnableForConcurrentThreadsAt_END_Framework* OpenAvrilLIB::CLIBLaunchEnableForConcurrentThreadsAtEND::get_ptr_Framework()
+    OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework* OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcurrentThreadsAtCLIENT::get_ptr_Framework()
     {
-        return ptr_Framework_LaunchEnableForConcurrentThreadsAt_END;
+        return ptr_Framework_LaunchEnableForConcurrentThreadsAt_CLIENT;
     }
-    void OpenAvrilLIB::CLIBLaunchEnableForConcurrentThreadsAtEND::set_ptr_Framework(class OpenAvrilLIB::LaunchEnableForConcurrentThreadsAt_END_Framework* framework)
+    void OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcurrentThreadsAtCLIENT::set_ptr_Framework(class OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework* framework)
     {
-        ptr_Framework_LaunchEnableForConcurrentThreadsAt_END = framework;
+        ptr_Framework_LaunchEnableForConcurrentThreadsAt_CLIENT = framework;
     }

@@ -1,8 +1,8 @@
 #pragma once
 
-namespace OpenAvrilLIB
+namespace OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE
 {
-    class WriteEnableForThreadsAt_STACK_Framework
+    class WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework
     {
 // classes.
 
@@ -12,16 +12,16 @@ namespace OpenAvrilLIB
 
     public:
 // constructor.
-        WriteEnableForThreadsAt_STACK_Framework();
+        WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework();
 
 // destructor.
-        virtual ~WriteEnableForThreadsAt_STACK_Framework();
+        virtual ~WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework();
 
 // public.
     // dynamic.
-        void initialise(class WriteEnableForThreadsAt_STACK_Framework* obj);
+        void initialise(class WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework* obj);
         // get.
-        class WriteEnableForThreadsAt_STACK* get_ptr_WriteEnable();
+        class WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE* get_ptr_WriteEnable();
         // set.
     // static.
         // get.
@@ -35,8 +35,8 @@ namespace OpenAvrilLIB
     // static.
         static void create_ptr_WriteEnable();
         // get.
-        static class WriteEnableForThreadsAt_STACK* Get_ptr_WriteEnable();
+        static class WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE* Get_ptr_WriteEnable();
         // set.
-        static void set_ptr_WriteEnable(class WriteEnableForThreadsAt_STACK* writeEnable);
+        static void set_ptr_WriteEnable(class WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE* writeEnable);
     };
 }

@@ -1,12 +1,12 @@
-#ifdef LAUNCHENABLEFORCONCURRENTTHREADSATEND_EXPORTS
-#define LAUNCHENABLEFORCONCURRENTTHREADSATEND_API __declspec(dllexport)
+#ifdef LAUNCHENABLEFORCONCURRENTTHREADSATSERVER_EXPORTS
+#define LAUNCHENABLEFORCONCURRENTTHREADSATSERVER_API __declspec(dllexport)
 #else
-#define LAUNCHENABLEFORCONCURRENTTHREADSATEND_API __declspec(dllimport)
+#define LAUNCHENABLEFORCONCURRENTTHREADSATSERVER_API __declspec(dllimport)
 #endif
 
-namespace OpenAvrilLIB
+namespace OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtSERVER
 {
-	class LAUNCHENABLEFORCONCURRENTTHREADSATEND_API CLIBLaunchEnableForConcurrentThreadsAtEND {
+	class LAUNCHENABLEFORCONCURRENTTHREADSATSERVER_API CLIBLaunchEnableForConcurrentThreadsAtSERVER {
 // classes.
 
 // registers.
@@ -15,7 +15,7 @@ namespace OpenAvrilLIB
 
 	public:
 // constructor.
-		CLIBLaunchEnableForConcurrentThreadsAtEND();
+		CLIBLaunchEnableForConcurrentThreadsAtSERVER();
 
 // destructor.
 
@@ -25,15 +25,15 @@ namespace OpenAvrilLIB
 		// set.
 	// static.
 		static void* create_Program();
-		static void request_Wait_launch(class LaunchEnableForConcurrentThreadsAt_END_Framework* obj, uint8_t concurrent_CoreId);
-		static void thread_End(class LaunchEnableForConcurrentThreadsAt_END_Framework*, uint8_t concurrent_CoreId);
+		static void request_Wait_launch(class LaunchEnableForConcurrentThreadsAt_SERVER_Framework* obj, uint8_t concurrent_CoreId);
+		static void thread_End(class LaunchEnableForConcurrentThreadsAt_SERVER_Framework*, uint8_t concurrent_CoreId);
 		// get.
-		static uint8_t get_coreId_To_launch(class LaunchEnableForConcurrentThreadsAt_END_Framework* obj);
-		static bool get_Flag_Active(class LaunchEnableForConcurrentThreadsAt_END_Framework* obj);
-		static bool get_Flag_ConcurrentCoreState(class LaunchEnableForConcurrentThreadsAt_END_Framework* obj, uint8_t concurrent_CoreId);
-		static bool get_Flag_Idle(class LaunchEnableForConcurrentThreadsAt_END_Framework* obj);
-		static bool get_State_launchBit(class LaunchEnableForConcurrentThreadsAt_END_Framework* obj);
-		static void set_state_ConcurrentCore(class LaunchEnableForConcurrentThreadsAt_END_Framework* obj, uint8_t concurrent_CoreId, bool value);
+		static uint8_t get_coreId_To_launch(class LaunchEnableForConcurrentThreadsAt_SERVER_Framework* obj);
+		static bool get_Flag_Active(class LaunchEnableForConcurrentThreadsAt_SERVER_Framework* obj);
+		static bool get_Flag_ConcurrentCoreState(class LaunchEnableForConcurrentThreadsAt_SERVER_Framework* obj, uint8_t concurrent_CoreId);
+		static bool get_Flag_Idle(class LaunchEnableForConcurrentThreadsAt_SERVER_Framework* obj);
+		static bool get_State_launchBit(class LaunchEnableForConcurrentThreadsAt_SERVER_Framework* obj);
+		static void set_state_ConcurrentCore(class LaunchEnableForConcurrentThreadsAt_SERVER_Framework* obj, uint8_t concurrent_CoreId, bool value);
 		// set.
 
 	private:
@@ -43,8 +43,8 @@ namespace OpenAvrilLIB
 		// set.
 	// static.
 		// get.
-		static class LaunchEnableForConcurrentThreadsAt_END_Framework* get_ptr_Framework();
+		static class LaunchEnableForConcurrentThreadsAt_SERVER_Framework* get_ptr_Framework();
 		// set.
-		static void set_ptr_Framework(class LaunchEnableForConcurrentThreadsAt_END_Framework* framework);
+		static void set_ptr_Framework(class LaunchEnableForConcurrentThreadsAt_SERVER_Framework* framework);
 	};
 }

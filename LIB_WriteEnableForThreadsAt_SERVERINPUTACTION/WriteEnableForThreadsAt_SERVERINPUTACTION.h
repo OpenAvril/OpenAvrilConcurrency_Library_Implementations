@@ -1,8 +1,8 @@
 #pragma once
 
-namespace OpenAvrilLIB
+namespace OpenAvrilCLIDWriteEnableForThreadsAtSERVERINPUTACTION
 {
-    class WriteEnableForThreadsAt_STACK
+    class WriteEnableForThreadsAt_SERVERINPUTACTION
     {
 // classes.
 
@@ -12,19 +12,19 @@ namespace OpenAvrilLIB
 
     public:
 // constructor.
-        WriteEnableForThreadsAt_STACK();
+        WriteEnableForThreadsAt_SERVERINPUTACTION();
 
 // destructor.
-        virtual ~WriteEnableForThreadsAt_STACK();
+        virtual ~WriteEnableForThreadsAt_SERVERINPUTACTION();
 
 // public.
     // dynamic.
-        void initialise_Control(class WriteEnableForThreadsAt_STACK_Framework* obj);
-        void write_End(class WriteEnableForThreadsAt_STACK_Framework* obj, uint8_t coreId);
-        void write_Start(class WriteEnableForThreadsAt_STACK_Framework* obj, uint8_t coreId);
+        void initialise_Control(class WriteEnableForThreadsAt_SERVERINPUTACTION_Framework* obj);
+        void write_End(class WriteEnableForThreadsAt_SERVERINPUTACTION_Framework* obj, uint8_t coreId);
+        void write_Start(class WriteEnableForThreadsAt_SERVERINPUTACTION_Framework* obj, uint8_t coreId);
         // get.
-        class WriteEnableForThreadsAt_STACK_Global* get_ptr_Global();
-        class WriteEnableForThreadsAt_STACK_Control* get_ptr_WriteEnable_Control();
+        class WriteEnableForThreadsAt_SERVERINPUTACTION_Global* get_ptr_Global();
+        class WriteEnableForThreadsAt_SERVERINPUTACTION_Control* get_ptr_WriteEnable_Control();
         // set.
     // static.
         // get.
@@ -39,10 +39,10 @@ namespace OpenAvrilLIB
         static void create_ptr_Global();
         static void create_ptr_WriteEnable_Control();
         // get.
-        static class WriteEnableForThreadsAt_STACK_Global* Get_ptr_Global();
-        static class WriteEnableForThreadsAt_STACK_Control* Get_ptr_WriteEnable_Control();
+        static class WriteEnableForThreadsAt_SERVERINPUTACTION_Global* Get_ptr_Global();
+        static class WriteEnableForThreadsAt_SERVERINPUTACTION_Control* Get_ptr_WriteEnable_Control();
         // set.
-        static void set_ptr_Global(class WriteEnableForThreadsAt_STACK_Global* global);
-        static void set_ptr_WriteEnable_Control(class WriteEnableForThreadsAt_STACK_Control* writeEnableControl);
+        static void set_ptr_Global(class WriteEnableForThreadsAt_SERVERINPUTACTION_Global* global);
+        static void set_ptr_WriteEnable_Control(class WriteEnableForThreadsAt_SERVERINPUTACTION_Control* writeEnableControl);
     };
 }

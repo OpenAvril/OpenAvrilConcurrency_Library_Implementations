@@ -14,9 +14,9 @@
 #include <array>
 #include <vector>
 #include <list>
-#include "LaunchEnableForConcurrentThreadsAt_END_Framework.h"
-#include "LaunchEnableForConcurrentThreadsAt_END_Global.h"
-#include "LaunchEnableForConcurrentThreadsAt_END.h"
-#include "LaunchEnableForConcurrentThreadsAt_END_Control.h"
+#include "LaunchEnableForConcurrentThreadsAt_CLIENT_Framework.h"
+#include "LaunchEnableForConcurrentThreadsAt_CLIENT_Global.h"
+#include "LaunchEnableForConcurrentThreadsAt_CLIENT.h"
+#include "LaunchEnableForConcurrentThreadsAt_CLIENT_Control.h"
 
 #endif //PCH_H

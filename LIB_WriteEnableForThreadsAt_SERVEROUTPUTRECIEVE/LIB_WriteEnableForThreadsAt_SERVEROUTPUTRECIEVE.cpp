@@ -1,16 +1,16 @@
 #include "pch.h"
 #include "framework.h"
-#include "LIB_WriteEnableForThreadsAt_STACK.h"
+#include "LIB_WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE.h"
 
 // classes.
-	OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Framework* _ptr_Framework_WriteEnableForThreadsAt_STACK = NULL;
+	OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework* _ptr_Framework_WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE = NULL;
 
 // registers.
 
 // pointers.
 
 // constructor.
-	OpenAvrilLIB::CLIDWriteEnableForThreadsAtSTACK::CLIDWriteEnableForThreadsAtSTACK()
+	OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::CLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::CLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE()
 	{
 
 	}
@@ -19,25 +19,25 @@
 
 // public.
 	// dynamic.
-	void* OpenAvrilLIB::CLIDWriteEnableForThreadsAtSTACK::create_Program()
+	void* OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::CLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::create_Program()
 	{
-		set_ptr_Framework(new class OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Framework());
+		set_ptr_Framework(new class OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework());
 		while (get_ptr_Framework() == NULL) {}
 		get_ptr_Framework()->initialise(get_ptr_Framework());
 		return (void*)get_ptr_Framework();
 	}
-	void OpenAvrilLIB::CLIDWriteEnableForThreadsAtSTACK::write_End(OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Framework* obj, uint8_t coreId)
+	void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::CLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::write_End(OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework* obj, uint8_t coreId)
 	{
 		obj->get_ptr_WriteEnable()->write_End(obj, coreId);
 	}
-	void OpenAvrilLIB::CLIDWriteEnableForThreadsAtSTACK::write_Start(OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Framework* obj, uint8_t coreId)
+	void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::CLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::write_Start(OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework* obj, uint8_t coreId)
 	{
 		obj->get_ptr_WriteEnable()->write_Start(obj, coreId);
 	}
 		// get.
-	OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Framework * OpenAvrilLIB::CLIDWriteEnableForThreadsAtSTACK::get_ptr_Framework()
+	OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework * OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::CLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::get_ptr_Framework()
 	{
-		return _ptr_Framework_WriteEnableForThreadsAt_STACK;
+		return _ptr_Framework_WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE;
 	}
 
 		// set.
@@ -52,7 +52,7 @@
 	// static.
 		// get.
 		// set.
-	void OpenAvrilLIB::CLIDWriteEnableForThreadsAtSTACK::set_ptr_Framework(OpenAvrilLIB::WriteEnableForThreadsAt_STACK_Framework* writeEnable)
+	void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::CLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::set_ptr_Framework(OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework* writeEnable)
 	{
-		_ptr_Framework_WriteEnableForThreadsAt_STACK = writeEnable;
+		_ptr_Framework_WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE = writeEnable;
 	}
