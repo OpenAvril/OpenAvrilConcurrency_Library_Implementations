@@ -4,7 +4,7 @@ namespace OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT
 {
     class LaunchEnableForConcurrentThreadsAt_CLIENT
     {
-        // classes.
+// classes.
 
 // registers.
 

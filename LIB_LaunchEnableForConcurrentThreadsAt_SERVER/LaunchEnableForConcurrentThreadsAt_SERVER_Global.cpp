@@ -6,6 +6,7 @@
     bool _flag_core_ACTIVE = NULL;
     bool _flag_core_IDLE = NULL;
     uint8_t _number_Implemented_Threads = NULL;
+
 // pointers.
     bool* _ptr_flag_core_ACTIVE = NULL;
     bool* _ptr_flag_core_IDLE = NULL;
@@ -74,16 +75,31 @@
     void OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtSERVER::LaunchEnableForConcurrentThreadsAt_SERVER_Global::create_flag_core_ACTIVE(bool* newDEFAULT_Flag)
     {
         set_flag_core_ACTIVE(*newDEFAULT_Flag);
+        while (get_ptr_flag_core_ACTIVE() == NULL) {}
     }
     void OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtSERVER::LaunchEnableForConcurrentThreadsAt_SERVER_Global::create_flag_core_IDLE(bool* newDEFAULT_Flag)
     {
         set_flag_core_IDLE(*newDEFAULT_Flag);
+        while (get_ptr_flag_core_IDLE() == NULL) {}
     }
     void OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtSERVER::LaunchEnableForConcurrentThreadsAt_SERVER_Global::create_number_Implemented_Threads(uint8_t* newDEFAULT_Value)
     {
         set_number_Implemented_Threads(*newDEFAULT_Value);
+        while (get_ptr_number_Implemented_Threads() == NULL) {}
     }
         // get.
+    bool* OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtSERVER::LaunchEnableForConcurrentThreadsAt_SERVER_Global::get_ptr_flag_core_ACTIVE()
+    {
+        return _ptr_flag_core_ACTIVE;
+    }
+    bool* OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtSERVER::LaunchEnableForConcurrentThreadsAt_SERVER_Global::get_ptr_flag_core_IDLE()
+    {
+        return _ptr_flag_core_IDLE;
+    }
+    uint8_t* OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtSERVER::LaunchEnableForConcurrentThreadsAt_SERVER_Global::get_ptr_number_Implemented_Threads()
+    {
+        return _ptr_number_Implemented_Threads;
+    }
         // set.
     void OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtSERVER::LaunchEnableForConcurrentThreadsAt_SERVER_Global::set_flag_core_ACTIVE(bool flag_core_ACTIVE)
     {

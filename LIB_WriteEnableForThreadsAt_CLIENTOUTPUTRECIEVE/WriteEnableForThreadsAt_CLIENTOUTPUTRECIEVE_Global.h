@@ -4,21 +4,21 @@ namespace OpenAvrilCLIDWriteEnableForThreadsAtCLIENTOUTPUTRECIEVE
 {
     class WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE_Global
     {
-// classes.
+        // classes.
 
-// registers.
+        // registers.
 
-// pointers.
+        // pointers.
 
     public:
-// constructor.
+        // constructor.
         WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE_Global();
 
-// destructor.
+        // destructor.
         ~WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE_Global();
 
-// public.
-    // dynamic.
+        // public.
+            // dynamic.
         void initialise_Item_Of_2bit_flag_write_IDLE(uint8_t slot, bool newINITIALISED_FlagBit);
         void initialise_Item_Of_2bit_flag_write_WAIT(uint8_t slot, bool newINITIALISED_FlagBit);
         void initialise_Item_Of_2bit_flag_write_WRITE(uint8_t slot, bool newINITIALISED_FlagBit);
@@ -49,6 +49,7 @@ namespace OpenAvrilCLIDWriteEnableForThreadsAtCLIENTOUTPUTRECIEVE
         static std::list<bool>* Get_ptr_2bit_flag_write_IDLE();
         static std::list<bool>* Get_ptr_2bit_flag_write_WAIT();
         static std::list<bool>* Get_ptr_2bit_flag_write_WRITE();
+        static uint8_t* get_ptr_number_Of_Implemented_Threads();
         // set.
         static void set_Item_Of_2bit_flag_write_IDLE(uint8_t slot, bool newValue);
         static void set_Item_Of_2bit_flag_write_WAIT(uint8_t slot, bool newValue);
@@ -59,4 +60,3 @@ namespace OpenAvrilCLIDWriteEnableForThreadsAtCLIENTOUTPUTRECIEVE
         static void set_number_Of_Implemented_Threads(uint8_t newValue);
     };
 }
-
