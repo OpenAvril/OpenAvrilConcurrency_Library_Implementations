@@ -136,26 +136,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="framework.h" />
-    <ClInclude Include="LIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.h" />
     <ClInclude Include="pch.h" />
-    <ClInclude Include="WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.h" />
-    <ClInclude Include="WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE_Control.h" />
-    <ClInclude Include="WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE_Framework.h" />
-    <ClInclude Include="WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE_Global.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
-    <ClCompile Include="LIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.cpp" />
-    <ClCompile Include="WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE_Control.cpp" />
-    <ClCompile Include="WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE_Framework.cpp" />
-    <ClCompile Include="WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE_Global.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

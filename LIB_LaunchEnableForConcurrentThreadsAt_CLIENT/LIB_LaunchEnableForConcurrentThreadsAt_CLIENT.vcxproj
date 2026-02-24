@@ -136,20 +136,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="framework.h" />
-    <ClInclude Include="LaunchEnableForConcurrentThreadsAt_CLIENT.h" />
-    <ClInclude Include="LaunchEnableForConcurrentThreadsAt_CLIENT_Control.h" />
-    <ClInclude Include="LaunchEnableForConcurrentThreadsAt_CLIENT_Framework.h" />
-    <ClInclude Include="LaunchEnableForConcurrentThreadsAt_CLIENT_Global.h" />
-    <ClInclude Include="LIB_LaunchEnableForConcurrentThreadsAt_CLIENT.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
-    <ClCompile Include="LaunchEnableForConcurrentThreadsAt_CLIENT.cpp" />
-    <ClCompile Include="LaunchEnableForConcurrentThreadsAt_CLIENT_Control.cpp" />
-    <ClCompile Include="LaunchEnableForConcurrentThreadsAt_CLIENT_Framework.cpp" />
-    <ClCompile Include="LaunchEnableForConcurrentThreadsAt_CLIENT_Global.cpp" />
-    <ClCompile Include="LIB_LaunchEnableForConcurrentThreadsAt_CLIENT.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

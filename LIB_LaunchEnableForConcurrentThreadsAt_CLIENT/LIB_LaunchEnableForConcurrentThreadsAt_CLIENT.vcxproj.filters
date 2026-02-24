@@ -21,42 +21,12 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="LIB_LaunchEnableForConcurrentThreadsAt_CLIENT.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="LaunchEnableForConcurrentThreadsAt_CLIENT_Global.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="LaunchEnableForConcurrentThreadsAt_CLIENT_Framework.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="LaunchEnableForConcurrentThreadsAt_CLIENT_Control.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="LaunchEnableForConcurrentThreadsAt_CLIENT.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="LIB_LaunchEnableForConcurrentThreadsAt_CLIENT.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="LaunchEnableForConcurrentThreadsAt_CLIENT_Global.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="LaunchEnableForConcurrentThreadsAt_CLIENT_Framework.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="LaunchEnableForConcurrentThreadsAt_CLIENT_Control.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="LaunchEnableForConcurrentThreadsAt_CLIENT.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

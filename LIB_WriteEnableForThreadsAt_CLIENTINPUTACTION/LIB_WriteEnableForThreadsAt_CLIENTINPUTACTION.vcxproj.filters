@@ -21,42 +21,12 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="WriteEnableForThreadsAt_CLIENTINPUTACTION_Global.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="WriteEnableForThreadsAt_CLIENTINPUTACTION_Framework.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="WriteEnableForThreadsAt_CLIENTINPUTACTION_Control.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="WriteEnableForThreadsAt_CLIENTINPUTACTION.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="LIB_WriteEnableForThreadsAt_CLIENTINPUTACTION.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="WriteEnableForThreadsAt_CLIENTINPUTACTION_Global.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="WriteEnableForThreadsAt_CLIENTINPUTACTION_Framework.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="WriteEnableForThreadsAt_CLIENTINPUTACTION_Control.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="WriteEnableForThreadsAt_CLIENTINPUTACTION.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="LIB_WriteEnableForThreadsAt_CLIENTINPUTACTION.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
