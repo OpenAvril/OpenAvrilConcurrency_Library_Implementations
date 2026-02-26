@@ -14,9 +14,9 @@
 #include <array>
 #include <vector>
 #include <list>
-#include "WriteEnableForThreadsAt_CLIENTINPUTACTION_Framework.h"
-#include "WriteEnableForThreadsAt_CLIENTINPUTACTION_Global.h"
-#include "WriteEnableForThreadsAt_CLIENTINPUTACTION.h"
-#include "WriteEnableForThreadsAt_CLIENTINPUTACTION_Control.h"
+#include "WriteEnableForThreadsAt_STACK_Framework.h"
+#include "WriteEnableForThreadsAt_STACK_Global.h"
+#include "WriteEnableForThreadsAt_STACK.h"
+#include "WriteEnableForThreadsAt_STACK_Control.h"
 
 #endif //PCH_H

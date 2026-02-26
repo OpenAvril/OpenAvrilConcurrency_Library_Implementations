@@ -15,49 +15,46 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="pch.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="LIB_WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Control.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LIB_WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE.cpp">
+    <ClCompile Include="LIB_WriteEnableForThreadsAt_STACK.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE.cpp">
+    <ClCompile Include="WriteEnableForThreadsAt_STACK.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Control.cpp">
+    <ClCompile Include="WriteEnableForThreadsAt_STACK_Control.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework.cpp">
+    <ClCompile Include="WriteEnableForThreadsAt_STACK_Framework.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Global.cpp">
+    <ClCompile Include="WriteEnableForThreadsAt_STACK_Global.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LIB_WriteEnableForThreadsAt_STACK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteEnableForThreadsAt_STACK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteEnableForThreadsAt_STACK_Control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteEnableForThreadsAt_STACK_Framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteEnableForThreadsAt_STACK_Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
