@@ -6,20 +6,21 @@
 
 namespace OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtSERVER
 {
-	class LAUNCHENABLEFORCONCURRENTTHREADSATSERVER_API CLIBLaunchEnableForConcurrentThreadsAtSERVER 
+	class LAUNCHENABLEFORCONCURRENTTHREADSATSERVER_API CLIBLaunchEnableForConcurrentThreadsAtSERVER
 	{
 	public:
-// constructor.
+		// constructor.
 		CLIBLaunchEnableForConcurrentThreadsAtSERVER();
 
-// destructor.
+		// destructor.
 
-// public.
-	// dynamic.
-		// get.
-		// set.
-	// static.
-		static void* create_Program();
+		// public.
+			// dynamic.
+				// get.
+				// set.
+			// static.
+		//static void* generate_Program();//ToDO: uncomment for C#.
+		static class LaunchEnableForConcurrentThreadsAt_SERVER_Framework* generate_Program();//ToDO: uncomment for C++.
 		static void request_Wait_launch(class LaunchEnableForConcurrentThreadsAt_SERVER_Framework* obj, uint8_t concurrentThreadID);
 		static void thread_End(class LaunchEnableForConcurrentThreadsAt_SERVER_Framework*, uint8_t concurrentThreadID);
 		// get.
@@ -32,19 +33,19 @@ namespace OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtSERVER
 		static void set_Flag_ConcurrentCoreState(class LaunchEnableForConcurrentThreadsAt_SERVER_Framework* obj, uint8_t concurrentThreadID, bool value);
 
 	private:
-// private.
-	// dynamic.
-		// get.
-		// set.
-	// static.
+		// private.
+			// dynamic.
+				// get.
+				// set.
+			// static.
 		static void create_ptr_Framework();
 		// get.
 		static class LaunchEnableForConcurrentThreadsAt_SERVER_Framework* stat_get_ptr_Framework();
 		// set.
 		static void stat_set_ptr_Framework(class LaunchEnableForConcurrentThreadsAt_SERVER_Framework* newClass);
-	// pointers.
-		// classes.
-		
-		// registers.
+		// pointers.
+			// classes.
+
+			// registers.
 	};
 }

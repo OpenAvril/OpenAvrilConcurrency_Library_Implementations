@@ -4,13 +4,13 @@
 
 // pointer.
     // classes.
-    OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework* _ptr_Framework_LaunchEnableForConcurrentThreadsAt_CLIENT = NULL;
-    // registers.
+OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework* _ptr_Framework_LaunchEnableForConcurrentThreadsAt_CLIENT = NULL;
+// registers.
 
 // constructor.
-    OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcurrentThreadsAtCLIENT()
-    {
-    }
+OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcurrentThreadsAtCLIENT()
+{
+}
 
 // destructor.
 
@@ -19,13 +19,23 @@
         // get.
         // set.
     // static.
-    void* OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcurrentThreadsAtCLIENT::create_Program()
+    void* OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcurrentThreadsAtCLIENT::generate_Program()
     {
         stat_set_ptr_Framework(new class OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework());
         while (stat_get_ptr_Framework() == NULL) {}
         stat_get_ptr_Framework()->initialise(stat_get_ptr_Framework());
         return (void*)stat_get_ptr_Framework();
-    }
+    }//ToDO: uncomment for C#.
+  
+    /*
+    OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework* OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcurrentThreadsAtCLIENT::generate_Program()
+    {
+        stat_set_ptr_Framework(new class OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework());
+        while (stat_get_ptr_Framework() == NULL) {}
+        stat_get_ptr_Framework()->initialise(stat_get_ptr_Framework());
+        return stat_get_ptr_Framework();
+    }//ToDO: uncomment for C++.
+    */
     void OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcurrentThreadsAtCLIENT::request_Wait_launch(OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework* obj, uint8_t concurrentThreadID)
     {
         obj->get_ptr_LaunchConcurrency()->thread_Start(obj, concurrentThreadID);
@@ -69,7 +79,7 @@
     void OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcurrentThreadsAtCLIENT::create_ptr_Framework()
     {
         stat_set_ptr_Framework(new OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework());
-        while (stat_get_ptr_Framework() == NULL) { }
+        while (stat_get_ptr_Framework() == NULL) {}
     }
         // get.
     OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework* OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcurrentThreadsAtCLIENT::stat_get_ptr_Framework()
@@ -80,4 +90,4 @@
     void OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcurrentThreadsAtCLIENT::stat_set_ptr_Framework(LaunchEnableForConcurrentThreadsAt_CLIENT_Framework* newClass)
     {
         _ptr_Framework_LaunchEnableForConcurrentThreadsAt_CLIENT = newClass;
-    }
+}
