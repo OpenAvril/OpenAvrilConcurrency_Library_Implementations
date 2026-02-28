@@ -56,7 +56,7 @@ OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::CLIDWriteEnableForThrea
 		// get.
 		// set.
 	// static.
-	void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::CLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::create_Framework()
+	void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::CLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::stat_create_Framework()
 	{
 		stat_set_ptr_Framework(new WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework());
 		while (stat_get_ptr_Framework() == NULL) {}

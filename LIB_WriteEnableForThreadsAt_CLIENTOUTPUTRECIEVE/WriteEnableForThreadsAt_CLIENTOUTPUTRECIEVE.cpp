@@ -9,7 +9,7 @@
 // constructor.
     OpenAvrilCLIDWriteEnableForThreadsAtCLIENTOUTPUTRECIEVE::WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE::WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE()
     {
-        create_ptr_Global();
+        stat_create_ptr_Global();
     }
 
 // destructor.
@@ -22,7 +22,7 @@
         // dynamic.
     void OpenAvrilCLIDWriteEnableForThreadsAtCLIENTOUTPUTRECIEVE::WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE::initialise_Control(OpenAvrilCLIDWriteEnableForThreadsAtCLIENTOUTPUTRECIEVE::WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE_Framework* obj)
     {
-        obj->get_ptr_WriteEnable()->create_ptr_WriteEnable_Control();
+        obj->get_ptr_WriteEnable()->stat_create_ptr_WriteEnable_Control();
     }
     void OpenAvrilCLIDWriteEnableForThreadsAtCLIENTOUTPUTRECIEVE::WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE::write_End(OpenAvrilCLIDWriteEnableForThreadsAtCLIENTOUTPUTRECIEVE::WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE_Framework* obj, uint8_t coreId)
     {
@@ -62,12 +62,12 @@
             // get.
             // set.
         // static.
-    void OpenAvrilCLIDWriteEnableForThreadsAtCLIENTOUTPUTRECIEVE::WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE::create_ptr_Global()
+    void OpenAvrilCLIDWriteEnableForThreadsAtCLIENTOUTPUTRECIEVE::WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE::stat_create_ptr_Global()
     {
         stat_set_ptr_Global(new class OpenAvrilCLIDWriteEnableForThreadsAtCLIENTOUTPUTRECIEVE::WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE_Global());
         while (stat_get_ptr_Global() == NULL) {}
     }
-    void OpenAvrilCLIDWriteEnableForThreadsAtCLIENTOUTPUTRECIEVE::WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE::create_ptr_WriteEnable_Control()
+    void OpenAvrilCLIDWriteEnableForThreadsAtCLIENTOUTPUTRECIEVE::WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE::stat_create_ptr_WriteEnable_Control()
     {
         stat_set_ptr_WriteEnable_Control(new class OpenAvrilCLIDWriteEnableForThreadsAtCLIENTOUTPUTRECIEVE::WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE_Control(_ptr_Global));
         while (stat_get_ptr_WriteEnable_Control() == NULL) {}

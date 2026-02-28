@@ -8,7 +8,7 @@
 // constructor.
 	OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework()
 	{
-		create_ptr_LaunchConcurrency();
+		stat_create_ptr_LaunchConcurrency();
 	}
 
 // destructor.
@@ -62,10 +62,10 @@
 		// get.
 		// set.
 	// static.
-	void OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework::create_ptr_LaunchConcurrency()
+	void OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework::stat_create_ptr_LaunchConcurrency()
 	{
 		stat_set_ptr_LaunchConcurrency(new class OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT());
-		while (stat_get_ptr_LaunchConcurrency() == NULL) { /* wait untill created */ }
+		while (stat_get_ptr_LaunchConcurrency() == NULL) { /* wait untill stat_created */ }
 	}
 		// get.
 	OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT* OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework::stat_get_ptr_LaunchConcurrency()

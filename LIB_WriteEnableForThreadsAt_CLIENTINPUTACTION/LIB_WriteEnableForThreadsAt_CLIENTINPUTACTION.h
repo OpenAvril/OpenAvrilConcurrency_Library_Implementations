@@ -33,7 +33,7 @@ namespace OpenAvrilCLIDWriteEnableForThreadsAtCLIENTINPUTACTION
 				// get.
 				// set.
 			// static.
-		static void create_Framework();
+		static void stat_create_Framework();
 		// get.
 		static class WriteEnableForThreadsAt_CLIENTINPUTACTION_Framework* stat_get_ptr_Framework();
 		// set.

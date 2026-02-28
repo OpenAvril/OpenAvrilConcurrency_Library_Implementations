@@ -9,7 +9,7 @@
 // constructor.
     OpenAvrilCLIDWriteEnableForThreadsAtSERVERINPUTACTION::WriteEnableForThreadsAt_SERVERINPUTACTION::WriteEnableForThreadsAt_SERVERINPUTACTION()
     {
-        create_ptr_Global();
+        stat_create_ptr_Global();
     }
 
 // destructor.
@@ -22,7 +22,7 @@
         // dynamic.
     void OpenAvrilCLIDWriteEnableForThreadsAtSERVERINPUTACTION::WriteEnableForThreadsAt_SERVERINPUTACTION::initialise_Control(OpenAvrilCLIDWriteEnableForThreadsAtSERVERINPUTACTION::WriteEnableForThreadsAt_SERVERINPUTACTION_Framework* obj)
     {
-        obj->get_ptr_WriteEnable()->create_ptr_WriteEnable_Control();
+        obj->get_ptr_WriteEnable()->stat_create_ptr_WriteEnable_Control();
     }
     void OpenAvrilCLIDWriteEnableForThreadsAtSERVERINPUTACTION::WriteEnableForThreadsAt_SERVERINPUTACTION::write_End(OpenAvrilCLIDWriteEnableForThreadsAtSERVERINPUTACTION::WriteEnableForThreadsAt_SERVERINPUTACTION_Framework* obj, uint8_t coreId)
     {
@@ -62,12 +62,12 @@
             // get.
             // set.
         // static.
-    void OpenAvrilCLIDWriteEnableForThreadsAtSERVERINPUTACTION::WriteEnableForThreadsAt_SERVERINPUTACTION::create_ptr_Global()
+    void OpenAvrilCLIDWriteEnableForThreadsAtSERVERINPUTACTION::WriteEnableForThreadsAt_SERVERINPUTACTION::stat_create_ptr_Global()
     {
         stat_set_ptr_Global(new class OpenAvrilCLIDWriteEnableForThreadsAtSERVERINPUTACTION::WriteEnableForThreadsAt_SERVERINPUTACTION_Global());
         while (stat_get_ptr_Global() == NULL) {}
     }
-    void OpenAvrilCLIDWriteEnableForThreadsAtSERVERINPUTACTION::WriteEnableForThreadsAt_SERVERINPUTACTION::create_ptr_WriteEnable_Control()
+    void OpenAvrilCLIDWriteEnableForThreadsAtSERVERINPUTACTION::WriteEnableForThreadsAt_SERVERINPUTACTION::stat_create_ptr_WriteEnable_Control()
     {
         stat_set_ptr_WriteEnable_Control(new class OpenAvrilCLIDWriteEnableForThreadsAtSERVERINPUTACTION::WriteEnableForThreadsAt_SERVERINPUTACTION_Control(_ptr_Global));
         while (stat_get_ptr_WriteEnable_Control() == NULL) {}

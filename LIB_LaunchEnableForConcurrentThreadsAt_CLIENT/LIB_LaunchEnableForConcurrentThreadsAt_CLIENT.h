@@ -38,7 +38,7 @@ namespace OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT
 				// get.
 				// set.
 			// static.
-		static void create_ptr_Framework();
+		static void stat_create_ptr_Framework();
 		// get.
 		static class LaunchEnableForConcurrentThreadsAt_CLIENT_Framework* stat_get_ptr_Framework();
 		// set.

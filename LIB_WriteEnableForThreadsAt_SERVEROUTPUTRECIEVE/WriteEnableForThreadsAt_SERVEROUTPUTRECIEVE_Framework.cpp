@@ -8,7 +8,7 @@ OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt
 // constructor.
 	OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework()
 	{
-		create_WriteEnable();
+		stat_create_WriteEnable();
 	}
 
 // destructor.
@@ -79,7 +79,7 @@ OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt
 		// get.
 		// set.
 	// static.
-	void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework::create_WriteEnable()
+	void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework::stat_create_WriteEnable()
 	{
 		stat_set_ptr_WriteEnable(new class OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE());
 		while (stat_get_ptr_WriteEnable() == NULL) {}

@@ -11,11 +11,11 @@
     OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Global::LaunchEnableForConcurrentThreadsAt_CLIENT_Global()
     {
         bool* newDEFAULT_Flag = new bool(false);
-        create_flag_core_ACTIVE(newDEFAULT_Flag);
-        create_flag_core_IDLE(newDEFAULT_Flag);
+        stat_create_flag_core_ACTIVE(newDEFAULT_Flag);
+        stat_create_flag_core_IDLE(newDEFAULT_Flag);
         delete newDEFAULT_Flag;
         uint8_t* newDEFAULT_Value = new uint8_t(INT8_MAX);
-        create_number_Implemented_Threads(newDEFAULT_Value);
+        stat_create_number_Implemented_Threads(newDEFAULT_Value);
         delete newDEFAULT_Value;
     }
 
@@ -64,19 +64,19 @@
         // get.
         // set.
     // static.
-    void OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Global::create_flag_core_ACTIVE(bool* newDEFAULT_Flag)
+    void OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Global::stat_create_flag_core_ACTIVE(bool* newDEFAULT_Flag)
     {
         bool* _ptr_flag_core_ACTIVE = new bool(true);
         while (stat_get_ptr_flag_core_ACTIVE() == NULL) {}
         stat_set_flag_core_ACTIVE(*newDEFAULT_Flag);
     }
-    void OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Global::create_flag_core_IDLE(bool* newDEFAULT_Flag)
+    void OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Global::stat_create_flag_core_IDLE(bool* newDEFAULT_Flag)
     {
         bool* _ptr_flag_core_IDLE = new bool(true);
         while (stat_get_ptr_flag_core_IDLE() == NULL) {}
         stat_set_flag_core_IDLE(*newDEFAULT_Flag);
     }
-    void OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Global::create_number_Implemented_Threads(uint8_t* newDEFAULT_Value)
+    void OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Global::stat_create_number_Implemented_Threads(uint8_t* newDEFAULT_Value)
     {
         uint8_t* _ptr_number_Implemented_Threads = new uint8_t(UINT_MAX);
         while (stat_get_ptr_number_Implemented_Threads() == NULL) {}
