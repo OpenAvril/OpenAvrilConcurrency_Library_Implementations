@@ -2,6 +2,7 @@
 #include "framework.h"
 #include "LIB_WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE.h"
 
+
 // pointers.
 	// classes.
 OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework* _ptr_Framework_WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE = NULL;
@@ -31,6 +32,18 @@ OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::CLIDWriteEnableForThrea
 		stat_set_ptr_Framework(new class OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework());
 		while (get_ptr_Framework() == NULL) {}
 		get_ptr_Framework()->initialise(get_ptr_Framework());
+		std::cout << "        ,     \\      /      ," << std::endl;
+		std::cout << "       / \\    )\\ __ /(     / \\ " << std::endl;
+		std::cout << "      /   \\   (_\\  /_)    /   \\ " << std::endl;
+		std::cout << "____ / ____\\__ \\@  @/ ___/_____\\_____" << std::endl;
+		std::cout << "|              |\\../|               |" << std::endl;
+		std::cout << "|               \\VV/                |" << std::endl;
+		std::cout << "|        MIT Write Que .dll         |" << std::endl;
+		std::cout << "|___________________________________|" << std::endl;
+		std::cout << "|    / \\ /        \\\\        \\ /\\    |" << std::endl;
+		std::cout << "|  /    V          ))        V   \\  |" << std::endl;
+		std::cout << "|/                //               \\| " << std::endl;
+		std::cout << "`                 V                 '" << std::endl;
 		return get_ptr_Framework();
 	}//ToDO: uncomment for C++.
 	void OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::CLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::write_End(OpenAvrilCLIDWriteEnableForThreadsAtSERVEROUTPUTRECIEVE::WriteEnableForThreadsAt_SERVEROUTPUTRECIEVE_Framework* obj, uint8_t coreId)

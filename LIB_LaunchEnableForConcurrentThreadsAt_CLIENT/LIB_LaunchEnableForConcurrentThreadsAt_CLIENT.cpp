@@ -24,6 +24,18 @@ OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::CLIBLaunchEnableForConcur
         stat_set_ptr_Framework(new class OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtCLIENT::LaunchEnableForConcurrentThreadsAt_CLIENT_Framework());
         while (stat_get_ptr_Framework() == NULL) {}
         stat_get_ptr_Framework()->initialise(stat_get_ptr_Framework());
+        std::cout << "        ,     \\      /      ," << std::endl;
+        std::cout << "       / \\    )\\ __ /(     / \\ " << std::endl;
+        std::cout << "      /   \\   (_\\  /_)    /   \\ " << std::endl;
+        std::cout << "____ / ____\\__ \\@  @/ ___/_____\\_____" << std::endl;
+        std::cout << "|              |\\../|               |" << std::endl;
+        std::cout << "|               \\VV/                |" << std::endl;
+        std::cout << "|        MIT Launch Que .dll         |" << std::endl;
+        std::cout << "|___________________________________|" << std::endl;
+        std::cout << "|    / \\ /        \\\\        \\ /\\    |" << std::endl;
+        std::cout << "|  /    V          ))        V   \\  |" << std::endl;
+        std::cout << "|/                //               \\| " << std::endl;
+        std::cout << "`                 V                 '" << std::endl;
         return (void*)stat_get_ptr_Framework();
     }//ToDO: uncomment for C#.
   

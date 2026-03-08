@@ -12,6 +12,7 @@
 #include <cstdint>
 #include <cstddef>
 #include <array>
+#include <iostream>
 #include <vector>
 #include <list>
 #include "LaunchEnableForConcurrentThreadsAt_CLIENT_Framework.h"

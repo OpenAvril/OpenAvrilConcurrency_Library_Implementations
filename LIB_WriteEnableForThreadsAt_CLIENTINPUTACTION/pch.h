@@ -13,6 +13,7 @@
 #include <cstddef>
 #include <array>
 #include <vector>
+#include <iostream>
 #include <list>
 #include "WriteEnableForThreadsAt_CLIENTINPUTACTION_Framework.h"
 #include "WriteEnableForThreadsAt_CLIENTINPUTACTION_Global.h"

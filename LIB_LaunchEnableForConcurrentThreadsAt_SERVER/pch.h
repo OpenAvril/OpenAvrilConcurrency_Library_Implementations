@@ -13,6 +13,7 @@
 #include <cstddef>
 #include <array>
 #include <vector>
+#include <iostream>
 #include <list>
 #include "LaunchEnableForConcurrentThreadsAt_SERVER_Framework.h"
 #include "LaunchEnableForConcurrentThreadsAt_SERVER_Global.h"

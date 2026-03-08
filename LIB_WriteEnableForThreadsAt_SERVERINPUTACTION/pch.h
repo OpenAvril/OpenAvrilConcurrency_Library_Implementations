@@ -11,6 +11,7 @@
 #include "framework.h"
 #include <cstdint>
 #include <cstddef>
+#include <iostream>
 #include <array>
 #include <vector>
 #include <list>

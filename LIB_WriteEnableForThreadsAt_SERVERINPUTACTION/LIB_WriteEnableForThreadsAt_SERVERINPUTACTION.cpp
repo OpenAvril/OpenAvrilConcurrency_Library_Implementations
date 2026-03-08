@@ -31,6 +31,18 @@ OpenAvrilCLIDWriteEnableForThreadsAtSERVERINPUTACTION::CLIDWriteEnableForThreads
 		stat_set_ptr_Framework(new class OpenAvrilCLIDWriteEnableForThreadsAtSERVERINPUTACTION::WriteEnableForThreadsAt_SERVERINPUTACTION_Framework());
 		while (get_ptr_Framework() == NULL) {}
 		get_ptr_Framework()->initialise(get_ptr_Framework());
+		std::cout << "        ,     \\      /      ," << std::endl;
+		std::cout << "       / \\    )\\ __ /(     / \\ " << std::endl;
+		std::cout << "      /   \\   (_\\  /_)    /   \\ " << std::endl;
+		std::cout << "____ / ____\\__ \\@  @/ ___/_____\\_____" << std::endl;
+		std::cout << "|              |\\../|               |" << std::endl;
+		std::cout << "|               \\VV/                |" << std::endl;
+		std::cout << "|        MIT Write Que .dll         |" << std::endl;
+		std::cout << "|___________________________________|" << std::endl;
+		std::cout << "|    / \\ /        \\\\        \\ /\\    |" << std::endl;
+		std::cout << "|  /    V          ))        V   \\  |" << std::endl;
+		std::cout << "|/                //               \\| " << std::endl;
+		std::cout << "`                 V                 '" << std::endl;
 		return get_ptr_Framework();
 	}//ToDO: uncomment for C++.
 	void OpenAvrilCLIDWriteEnableForThreadsAtSERVERINPUTACTION::CLIDWriteEnableForThreadsAtSERVERINPUTACTION::write_End(OpenAvrilCLIDWriteEnableForThreadsAtSERVERINPUTACTION::WriteEnableForThreadsAt_SERVERINPUTACTION_Framework* obj, uint8_t coreId)
