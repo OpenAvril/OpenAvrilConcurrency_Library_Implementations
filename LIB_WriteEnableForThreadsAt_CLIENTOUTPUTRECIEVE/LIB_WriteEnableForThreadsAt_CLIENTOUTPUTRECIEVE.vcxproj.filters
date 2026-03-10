@@ -18,10 +18,10 @@
     <ClInclude Include="framework.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="LIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.h">
+    <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="pch.h">
+    <ClInclude Include="LIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.h">

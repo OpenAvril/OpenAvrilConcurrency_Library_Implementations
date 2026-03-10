@@ -4,20 +4,20 @@
 #define LIBWRITEENABLEFORTHREADSATCLIENTINPUTACTION_API __declspec(dllimport)
 #endif
 
-namespace OpenAvrilCLIDWriteEnableForThreadsAtCLIENTINPUTACTION
+namespace OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTACTION
 {
-	class LIBWRITEENABLEFORTHREADSATCLIENTINPUTACTION_API CLIDWriteEnableForThreadsAtCLIENTINPUTACTION
+	class LIBWRITEENABLEFORTHREADSATCLIENTINPUTACTION_API CLIBWriteEnableForThreadsAtCLIENTINPUTACTION
 	{
 	public:
 		// constructor.
-		CLIDWriteEnableForThreadsAtCLIENTINPUTACTION();
+		CLIBWriteEnableForThreadsAtCLIENTINPUTACTION();
 
 		// destructor.
 
 		// public.
 			// dynamic.
 		static void* generate_Program();//ToDO: uncomment for C#.
-		//static OpenAvrilCLIDWriteEnableForThreadsAtCLIENTINPUTACTION::WriteEnableForThreadsAt_CLIENTINPUTACTION_Framework* generate_Program();//ToDO: uncomment for C++.
+		//static OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTACTION::WriteEnableForThreadsAt_CLIENTINPUTACTION_Framework* generate_Program();//ToDO: uncomment for C++.
 		static void write_End(class WriteEnableForThreadsAt_CLIENTINPUTACTION_Framework* obj, uint8_t coreId);
 		static void write_Start(class WriteEnableForThreadsAt_CLIENTINPUTACTION_Framework* obj, uint8_t coreId);
 		// get.
